@@ -1,0 +1,25 @@
+
+/* Types */
+
+Label 
+{
+    color: #000055;
+}
+
+/* Classes */
+
+.Section
+{
+    margin-top: 10px;
+}
+
+.Header
+{
+    -unity-font-style: bold;
+}
+
+.Button
+{
+    font-size: 12px;
+    -unity-font: resource("OpenSansLight");
+}

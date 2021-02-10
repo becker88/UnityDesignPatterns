@@ -1,0 +1,12 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:ue="UnityEditor.UIElements">
+    <ui:VisualElement class="Section">
+        <ui:Label class = "Header" text="Properties" />
+        <ue:PropertyField class="CurrentLevel" binding-path="CurrentLevel"/>
+        <ue:PropertyField class="CurrentPosition" binding-path="CurrentPosition"/>
+     </ui:VisualElement>
+    <ui:VisualElement class="Section">
+        <ui:Label class = "Header" text="Buttons" />
+        <ui:Button class = "Button" text="Reset Current Position" name="ResetButton" />
+        <ui:Button class = "Button" text="Randomize Current Position" name="RandomizeButton" />
+    </ui:VisualElement>
+</UXML>
