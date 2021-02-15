@@ -22,7 +22,7 @@ Enjoy!
 
 **Principles**
 
-* **SOLID** - The intention of these SOLID principles is to make software designs more understandable, easier to maintain and easier to extend. As a software engineer, these 5 principles are essential to know!See <a href="https://itnext.io/solid-principles-explanation-and-examples-715b975dcad4">Unity Docs</a> for more.
+* **SOLID** - The intention of these SOLID principles is to make software designs more understandable, easier to maintain and easier to extend. As a software engineer, these 5 principles are essential to know! See <a href="https://itnext.io/solid-principles-explanation-and-examples-715b975dcad4">IT Next Docs</a> for more.
 
 **Tooling**
 
