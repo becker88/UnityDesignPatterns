@@ -1,6 +1,6 @@
 # Unity Design Patterns
 
-<img src="https://raw.githubusercontent.com/SamuelAsherRivello/UnityDesignPatterns/tree/master/Unity/Assets/3rdParty/_RMC/Shared/Documentation/Images/Screenshot_v1.png?raw=true" width="500" />
+<img src="https://raw.githubusercontent.com/SamuelAsherRivello/UnityDesignPatterns/master/Unity/Assets/3rdParty/_RMC/Shared/Documentation/Images/Screenshot_v1.png?raw=true" width="500" />
 
 **Details**
 
