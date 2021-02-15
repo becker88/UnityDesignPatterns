@@ -1,10 +1,13 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace RMC.Projects.UnityDesignPatterns.Patterns.CreationalPatterns.Singleton
 {
 	/// <summary>
-	/// TODO: Add comment
+	/// Allows to be referenced via "Instance"
+	/// and dynamically created on demand.
+	/// 
+	/// NOTE: This is a VERY light implementation.
+	/// 
 	/// </summary>
 	public class Singleton
 	{
