@@ -1,5 +1,7 @@
 ﻿using NUnit.Framework;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.TestTools;
 
 namespace RMC.Calculator_02Complete
 {
@@ -17,12 +19,15 @@ namespace RMC.Calculator_02Complete
     /// </summary>
     public class CalculatorDemoPlayModeTest
     {
-        [Test]
-        public void Add_10Plus5_Equals15()
+        [UnityTest]
+        public IEnumerator Add_10Plus5_Equals15()
         {
             // Arrange
             GameObject gameObject = new GameObject();
             CalculatorDemo calculatorDemo = gameObject.AddComponent<CalculatorDemo>();
+
+            // Wait for new GameObject's Start() to complete
+            yield return null;
 
             // Act
             float result = calculatorDemo.Calculator.Add(10, 5);
@@ -31,12 +36,15 @@ namespace RMC.Calculator_02Complete
             Assert.That(result, Is.EqualTo(15));
         }
         
-        [Test]
-        public void Subtract_9Minus4_Equals5()
+        [UnityTest]
+        public IEnumerator Subtract_9Minus4_Equals5()
         {
             // Arrange
             GameObject gameObject = new GameObject();
             CalculatorDemo calculatorDemo = gameObject.AddComponent<CalculatorDemo>();
+
+            // Wait for new GameObject's Start() to complete
+            yield return null;
 
             // Act
             float result = calculatorDemo.Calculator.Subtract(9, 4);
@@ -44,17 +52,5 @@ namespace RMC.Calculator_02Complete
             // Asset
             Assert.That(result, Is.EqualTo(5));
         }
-
-        /*
-        // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-        // `yield return null;` to skip a frame.
-        [UnityTest]
-        public IEnumerator CalculatorTestWithEnumeratorPasses()
-        {
-            // Use the Assert class to test conditions.
-            // Use yield to skip a frame.
-            yield return null;
-        }
-        */
     }
 }
