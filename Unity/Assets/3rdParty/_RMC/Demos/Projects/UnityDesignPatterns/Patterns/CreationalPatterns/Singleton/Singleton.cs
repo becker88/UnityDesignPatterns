@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace RMC.Projects.UnityDesignPatterns.Patterns.CreationalPatterns.Singleton
 {
@@ -9,28 +10,15 @@ namespace RMC.Projects.UnityDesignPatterns.Patterns.CreationalPatterns.Singleton
 	/// NOTE: This is a VERY light implementation.
 	/// 
 	/// </summary>
-	public class Singleton
+	public class MySingleton : SingletonMonobehavior<MySingleton>
 	{
-		public static Singleton Instance
+		//  Parent Methods ------------------------------------------
+		public override void InstantiateCompleted()
 		{
-			get
-			{
-				if (_instance == null)
-				{
-					_instance = new Singleton();
-				}
-				return _instance;
-			}
+			Debug.Log("InstantiateCompleted()");
 		}
 
-		private static Singleton _instance;
-
-		private Singleton ()
-		{
-			Debug.Log("Singleton.Constructor()");
-			_instance = this;
-		}
-
+		//  Other Methods ------------------------------------------
 		public void SayHelloWorld()
 		{
 			Debug.Log("Hello World!");
