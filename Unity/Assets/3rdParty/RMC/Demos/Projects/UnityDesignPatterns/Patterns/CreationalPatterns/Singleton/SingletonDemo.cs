@@ -10,10 +10,17 @@ namespace RMC.Projects.UnityDesignPatterns.Patterns.CreationalPatterns.Singleton
 	{
 		protected void Start()
 		{
-			// Call multiple times, see that it only gets created 1 time
+			// Singleton MonoBehaviour
+			// -- Call multiple times. Note: It only gets created 1 time
 			MySingleton.Instance.SayHelloWorld();
 			MySingleton.Instance.SayHelloWorld();
 			MySingleton.Instance.SayHelloWorld();
+			
+			// Singleton ScriptableObject
+			// -- Writes to local path
+			MyScriptableSingleton.instance.Log();
+			MyScriptableSingleton.instance.IncrementSomeCounter();
+			MyScriptableSingleton.instance.Log();
 		}
 	}
 }
