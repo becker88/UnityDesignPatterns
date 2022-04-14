@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 
 namespace RMC.Projects.UnityDesignPatterns.Patterns.CreationalPatterns.Singleton
