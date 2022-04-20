@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 1485594085}
+  m_LightingSettings: {fileID: 12308069}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!850595691 &1485594085
+--- !u!850595691 &12308069
 LightingSettings:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,8 +194,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1550360416}
+  - component: {fileID: 1550360417}
   m_Layer: 0
-  m_Name: SingletonMonoBehaviourDemo
+  m_Name: SuperSingletonDemo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,6 +217,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1550360417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550360414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2ad3fa3b2ef48eebf80ce69d1035423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1788219202749670677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -286,7 +299,12 @@ PrefabInstance:
     - target: {fileID: 4082153953705176292, guid: 024a771238788f8428b319b10b1a5295,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.17082131
+      value: -1.4005042
+      objectReference: {fileID: 0}
+    - target: {fileID: 4082153953705176293, guid: 024a771238788f8428b319b10b1a5295,
+        type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 1.4627932
       objectReference: {fileID: 0}
     - target: {fileID: 6993037373008594525, guid: 024a771238788f8428b319b10b1a5295,
         type: 3}
@@ -297,7 +315,7 @@ PrefabInstance:
     - target: {fileID: 7148332990257104532, guid: 024a771238788f8428b319b10b1a5295,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.17082131
+      value: -1.4005042
       objectReference: {fileID: 0}
     - target: {fileID: 7148332990257104533, guid: 024a771238788f8428b319b10b1a5295,
         type: 3}

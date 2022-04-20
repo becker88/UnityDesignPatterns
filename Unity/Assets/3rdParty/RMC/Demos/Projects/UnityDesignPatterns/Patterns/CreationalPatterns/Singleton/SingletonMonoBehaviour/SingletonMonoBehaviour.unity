@@ -299,18 +299,18 @@ PrefabInstance:
     - target: {fileID: 4082153953705176292, guid: 024a771238788f8428b319b10b1a5295,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.007828593
+      value: -1.4005042
       objectReference: {fileID: 0}
     - target: {fileID: 6993037373008594525, guid: 024a771238788f8428b319b10b1a5295,
         type: 3}
       propertyPath: _uiConfigData
       value: 
-      objectReference: {fileID: 11400000, guid: 219cd4f67dfa77a45b7266121b51ad90,
+      objectReference: {fileID: 11400000, guid: 691bc0c9dc9071d47967572edb946ec2,
         type: 2}
     - target: {fileID: 7148332990257104532, guid: 024a771238788f8428b319b10b1a5295,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.007828593
+      value: -1.4005042
       objectReference: {fileID: 0}
     - target: {fileID: 7148332990257104533, guid: 024a771238788f8428b319b10b1a5295,
         type: 3}

@@ -15,7 +15,6 @@ namespace RMC.Projects.UnityDesignPatterns.Patterns.CreationalPatterns.Singleton
 			MySingleton.Instance.SayHelloWorld();
 			MySingleton.Instance.SayHelloWorld();
 			MySingleton.Instance.SayHelloWorld();
-			
 		}
 	}
 }
